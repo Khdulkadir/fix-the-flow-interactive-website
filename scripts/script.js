@@ -6,9 +6,9 @@ modeSwitch = body.querySelector(".toggle-switch"),
 modeText = body.querySelector(".mode-text");
 
 
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
+// toggle.addEventListener("click" , () =>{
+//     sidebar.classList.toggle("close");
+// })
 
 searchBtn.addEventListener("click" , () =>{
     sidebar.classList.remove("close");
