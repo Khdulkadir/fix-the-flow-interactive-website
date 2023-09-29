@@ -35,6 +35,7 @@
 :root{
     /* ===== Colors ===== */
     --body-color: #f6f6f6;
+    --body-color-white: #fff;
     --sidebar-color: #FFF;
     --primary-color: #FF0000;
     --primary-color-light: #F6F5FF;
@@ -51,7 +52,7 @@
 
 body{
     min-height: 100vh;
-    background-color: var(--body-color);
+    background-color: var(--body-color-white);
     transition: var(--tran-05);
     font-family: AvenirMedium;
     overflow-x: hidden;
