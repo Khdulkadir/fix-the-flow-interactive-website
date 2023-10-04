@@ -330,15 +330,16 @@ body.dark .switch::before{
 }
 
 .home{
-    position: absolute;
-    top: 0;
-    left: 250px;
+    position: relative;
     height: 15vh;
-    width: calc(100% - 250px);
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
     background-color: #f6f6f6;
     transition: var(--tran-05);    
     position: relative;
     display: flex;
+    grid-area: banner;
 }
 
 .flex {
@@ -353,10 +354,13 @@ body.dark .switch::before{
   
 }
 
+.home {
+    background-image: url(../image/Banner.jpg);
+}
+
 h1 {
-    position: absolute;
+    position: relative;
     margin-top: 20px;
-    left: 40%;
     background-color: red;
     padding-left: 10px;
     padding-right: 10px;
@@ -365,7 +369,7 @@ h1 {
     
 }
 
-.banner {
+/* .banner {
     position: relative;
     left: 250px;
     height: auto;
@@ -381,10 +385,15 @@ h1 {
     border-width: 2px;
     border-color: black;
     object-fit: cover;
+} */
+
+
+.accounts
+{
+ justify-content: center;
 }
 
-li.account {
-    left: 260px;
+li#account1, li#account2, li#account3, li#account4, li#account5, li#account6 {
     position: relative;
     padding: 10px;
     display: block;
@@ -398,19 +407,17 @@ li.account {
 }
 
 li.addaccount {
-    left: 260px;
     position: relative;
     padding: 10px;
     display: block;
     float: left;
     margin-left: 90px;
     margin-top: 50px;
-  
 }   
 
-.accounts2 {
+/* .accounts2 {
     height: 60vh;
-}
+} */
 
 
 .profile-picture {
@@ -448,6 +455,18 @@ ul.account1 {
     overflow: hidden;
 }
 
+main {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "banner banner banner"
+    "accounts accounts accounts"
+    "accounts accounts accounts"
+    ; */
+    margin-left: 250px;
+}
+
 .sidebar.close ~ .home{
     left: 78px;
     height: 100vh;
@@ -456,3 +475,4 @@ ul.account1 {
 body.dark .home .text{
     color: var(--text-color);
 }
+
