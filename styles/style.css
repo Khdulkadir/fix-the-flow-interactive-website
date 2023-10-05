@@ -379,6 +379,7 @@ h1 {
   color: white;
   padding-bottom: 5px;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
 .selecteer:hover {
