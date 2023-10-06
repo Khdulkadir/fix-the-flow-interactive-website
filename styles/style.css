@@ -143,6 +143,11 @@ body.dark {
   resize: none;
   opacity: 1;
 }
+
+.sidebar .text-long:hover {
+  color: white;
+}
+
 .sidebar.close .text-long {
   resize: none;
   opacity: 0;
@@ -330,13 +335,19 @@ body.dark .switch::before {
   left: 20px;
 }
 
-/* MENU END */
+.sidebar.close ~ .home {
+  left: 78px;
+  height: 100vh;
+  width: calc(100% - 78px);
+}
+body.dark .home .text {
+  color: var(--text-color);
+}
 
 /* START MAIN */
 
 .home {
   position: relative;
-  /* height: 15vh; */
   background-repeat: no-repeat;
   transition: var(--tran-05);
   position: relative;
@@ -365,9 +376,9 @@ h1 {
   padding-right: 10px;
   color: white;
   border-radius: 10px;
-  font-size: 45px;
-  -webkit-text-stroke: 1px black;
-  font-family: "raleway";
+  font-size: 55px;
+  -webkit-text-stroke: 0.9px rgb(0, 0, 0);
+  font-family: "Open Sans";
 }
 
 .selecteer {
@@ -386,24 +397,6 @@ h1 {
   transition: 0.3s;
 }
 
-/* .banner {
-    position: relative;
-    left: 250px;
-    height: auto;
-    width: calc(100%- 250px);
-    top: 0;
-    padding: 10px
-}
-
-#bannerimg {
-    max-width: 100%;
-    height: auto;
-    border: solid;
-    border-width: 2px;
-    border-color: black;
-    object-fit: cover;
-} */
-
 .accounts {
   padding-left: 50px;
   padding-top: 50px;
@@ -413,12 +406,7 @@ h2 {
   padding-left: 50px;
 }
 
-li#account1,
-li#account2,
-li#account3,
-li#account4,
-li#account5,
-li#account6 {
+li#account {
   position: relative;
   padding: 10px;
   display: block;
@@ -441,29 +429,25 @@ li.addaccount {
   display: block;
   float: left;
   margin-left: 140px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
-/* .accounts2 {
-    height: 60vh;
-} */
-
 .profile-picture {
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Adjust the size as needed */
-  margin-right: 10px; /* Adjust the spacing between the picture and text */
-  border-radius: 50%; /* Makes the image circular if desired */
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
 .profile-info {
-  display: flex; /* Use flexbox to align items horizontally */
-  align-items: center; /* Vertically center-align items within the div */
-  margin-bottom: 10px; /* Adjust the spacing between profile and account info */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .account-details {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column;
 }
 
 .account a {
@@ -482,22 +466,5 @@ ul.account1 {
 }
 
 main {
-  /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "banner banner banner"
-    "accounts accounts accounts"
-    "accounts accounts accounts"
-    ; */
   margin-left: 250px;
-}
-
-.sidebar.close ~ .home {
-  left: 78px;
-  height: 100vh;
-  width: calc(100% - 78px);
-}
-body.dark .home .text {
-  color: var(--text-color);
 }
