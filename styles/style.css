@@ -492,8 +492,12 @@ ul.account-list {
     margin-right: 15px;
   }
 
-  li#addaccount {
-    margin-left: 90px;
-    margin-right: 20px;
+  li.addaccount {
+    margin-left: 10px !important;
+  }
+
+  .logo {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
