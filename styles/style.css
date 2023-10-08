@@ -429,8 +429,13 @@ li.addaccount {
   padding: 10px;
   display: block;
   float: left;
-  margin-left: 140px;
-  margin-top: 70px;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.bx-plus-circle {
+  font-size: 150px;
+  color: red;
 }
 
 .profile-picture {
@@ -444,6 +449,12 @@ li.addaccount {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.bx-dots-vertical {
+  font-size: 20px;
+  margin-left: 190px;
+  margin-top: -20px;
 }
 
 .account-details {
@@ -466,6 +477,8 @@ ul.account-list {
   overflow: hidden;
 }
 
+/* MEDIA QUERY DESKTOP */
+
 @media (min-width: 1280px) {
   main {
     margin-left: 250px;
@@ -478,6 +491,8 @@ ul.account-list {
     font-size: 55px;
   }
 }
+
+/* MEDIA QUERY MOBILE */
 
 @media (max-width: 1279px) {
   .home {
@@ -493,7 +508,8 @@ ul.account-list {
   }
 
   li.addaccount {
-    margin-left: 10px !important;
+    margin-left: 90px;
+    margin-top: 10px;
   }
 
   .logo {
