@@ -390,6 +390,9 @@ h1 {
   padding-bottom: 5px;
   margin-top: 10px;
   border-radius: 5px;
+  width: 100%;
+  font-family: "AvenirMedium";
+  border-width: 0;
 }
 
 .selecteer:hover {
@@ -429,13 +432,18 @@ li.addaccount {
   padding: 10px;
   display: block;
   float: left;
-  margin-left: 110px;
-  margin-top: 50px;
+  margin-left: 130px;
+  margin-top: 60px;
 }
 
-.bx-plus-circle {
-  font-size: 150px;
-  color: red;
+.bx-plus {
+  font-size: 100px;
+  color: white;
+  background-color: red;
+  border-radius: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
 }
 
 .profile-picture {
@@ -452,9 +460,10 @@ li.addaccount {
 }
 
 .bx-dots-vertical {
+  position: absolute;
   font-size: 20px;
   margin-left: 190px;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .account-details {
@@ -508,12 +517,16 @@ ul.account-list {
   }
 
   li.addaccount {
-    margin-left: 90px;
+    margin-left: 80px;
     margin-top: 10px;
   }
 
   .logo {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .bx-dots-vertical {
+    margin-left: 160px;
   }
 }
