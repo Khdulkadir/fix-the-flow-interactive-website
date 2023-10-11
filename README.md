@@ -1,8 +1,18 @@
-# Mijn oba
-Ontwerp en maak een interactieve website voor een opdrachtgever.
+# Inhoudsopgave
+
+*Beschrijving
+
+*Kenmerken
+
+*Bronnen
+
+*Licentie
+
+## Mijn oba
+Ontwerp en maak een familieoverzicht voor de website van mijn OBA.
 
 ## User Story
-> Als oba-lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
+> Als oba-lid wil ik in de omgeving van mijn OBA een overzicht van activiteiten van al mijn familieleden kunnen zien.
 
 ## Beschrijving
 In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
