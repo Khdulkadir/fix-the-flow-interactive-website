@@ -1,12 +1,12 @@
 # Inhoudsopgave
 
-*Beschrijving
+- Beschrijving
 
-*Kenmerken
+- Kenmerken
 
-*Bronnen
+- Bronnen
 
-*Licentie
+- Licentie
 
 ## Mijn oba
 Ontwerp en maak een familieoverzicht voor de website van mijn OBA.
