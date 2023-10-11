@@ -43,7 +43,7 @@ De main is opgedeeld in twee secties. De eerste sectie is een h1 met een achterg
 
 De tweede sectie is een ul met 5 accountleden en een icon om een 6de account toe te voegen. De list items zijn responsive gemaakt doormiddel van flex.
 
-<section class="accounts"> <h2>Leden:</h2>
+`<section class="accounts">` `<h2>Leden:</h2>`
 
         `<ul class="account-list">`
             `<li id="account">`
@@ -72,6 +72,6 @@ Het was voor de opdrachtgever belangrijk om de stijlboek van OBA te hanteren. De
 
 ## Licentie
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+![OBA](https://www.oba.nl)
 
 This work is licensed under [GNU GPLv3](./LICENSE).
