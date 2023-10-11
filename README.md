@@ -1,20 +1,19 @@
-# Inhoudsopgave
-
-- Beschrijving
-
-- Kenmerken
-
-- Bronnen
-
-- Licentie
-
 ## Mijn oba
 Ontwerp en maak een familieoverzicht voor de website van mijn OBA.
 
-## User Story
-> Als oba-lid wil ik in de omgeving van mijn OBA een overzicht van activiteiten van al mijn familieleden kunnen zien.
+# Inhoudsopgave
+
+- [Beschrijving](https://github.com/Khdulkadir/fix-the-flow-interactive-website/tree/main#beschrijving)
+
+- [Kenmerken](https://github.com/Khdulkadir/fix-the-flow-interactive-website/tree/main#kenmerken)
+
+- [Bronnen](https://github.com/Khdulkadir/fix-the-flow-interactive-website/tree/main#bronnen)
+
+- [Licentie](https://github.com/Khdulkadir/fix-the-flow-interactive-website/tree/main#licentie)
+
 
 ## Beschrijving
+Als oba-lid wil ik in de omgeving van mijn OBA een overzicht van activiteiten van al mijn familieleden kunnen zien.
 In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
 
 Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat ik leer om eerst te bouwen voor de mobiel. Ik heb voor deze sprint gekozen voor twee verschillende interacties/animaties. Dit is het in en uitklappen van de navigatie en het aanzetten van dark mode. Voor meer toegankelijkheid heb ik gekozen om een dark mode te maken (ik wilde dit ook in de vorige sprint doen). Ik heb een toggle animatie gemaakt dat als je op de knop klikt, de toggle naar rechts gaat, en wanneer je er nogmaals op klikt, de toggle weer terug naar links gaat. Voor de navigatie heb ik iets soortgelijks gemaakt. Wanneer je op de knop drukt, gaat de navigatie zichzelf inklappen waardoor je alleen nog de icoontjes ziet staan. Wanneer je weer op de knop drukt, klap de navigatie weer uit en zie je meer informatie. Hieronder zal ik de animaties laten zien:
