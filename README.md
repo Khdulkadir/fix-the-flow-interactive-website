@@ -39,7 +39,7 @@ Het navigatiemenu van het familieoverzicht is al geleverd door de OBA zelf. Hier
 **HTML**
 De main is opgedeeld in twee secties. De eerste sectie is een h1 met een achtergrondfoto als banner:
 
-<main> <section class="home flex"> <h1 class="familienaam">Familieoverzicht</h1>   </section>
+`<main>` `<section class="home flex">` `<h1 class="familienaam">Familieoverzicht</h1>`
 
 De tweede sectie is een ul met 5 accountleden en een icon om een 6de account toe te voegen. De list items zijn responsive gemaakt doormiddel van flex.
 
