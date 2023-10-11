@@ -13,8 +13,7 @@ Ontwerp en maak een familieoverzicht voor de website van mijn OBA.
 
 
 ## Beschrijving
-**User story** 
-Als oba-lid wil ik in de omgeving van mijn OBA een overzicht van activiteiten van al mijn familieleden kunnen zien.
+**User story**: Als oba-lid wil ik in de omgeving van mijn OBA een overzicht van activiteiten van al mijn familieleden kunnen zien.
 
 
 In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
