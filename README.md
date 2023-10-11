@@ -43,9 +43,9 @@ De main is opgedeeld in twee secties. De eerste sectie is een h1 met een achterg
 
 De tweede sectie is een ul met 5 accountleden en een icon om een 6de account toe te voegen. De list items zijn responsive gemaakt doormiddel van flex.
 
-`<section class="accounts">` `<h2>Leden:</h2>`
+`<section class="accounts"> <h2>Leden:</h2>`
 
-        `<ul class="account-list">`
+        <ul class="account-list">`
             `<li id="account">`
                 `<div class="profile-info">`
                     `<img src="./image/icons8-person-48.png" alt="Profile Picture" class="profile-picture">`
@@ -66,7 +66,7 @@ De tweede sectie is een ul met 5 accountleden en een icon om een 6de account toe
                 `<button class="selecteer"> Selecteer Profiel</button>`
             `</li>`
 **CSS**
-Het was voor de opdrachtgever belangrijk om de stijlboek van OBA te hanteren. De font font-family: "AvenirMedium"; en kleur background-color: #ff1e1e; heb ik daarom meerdere keren gebruikt in de stijlgeving.
+Het was voor de opdrachtgever belangrijk om de stijlboek van OBA te hanteren. De font `font-family: "AvenirMedium";` en kleur `background-color: #ff1e1e;` heb ik daarom meerdere keren gebruikt in de stijlgeving.
 
 
 
