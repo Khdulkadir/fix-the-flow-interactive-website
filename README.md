@@ -35,7 +35,44 @@ Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat 
 ![Mobiel-darkmode](https://user-images.githubusercontent.com/112861033/212928093-b538ef48-fd68-4a00-ba4b-731123d6be4b.jpg)
 
 ## Kenmerken
-Bekijk even mijn wiki! Ik heb bij de bouwfase meer uitleg gegeven over de code: [🔨 Bouwen](https://github.com/Amberhva/fix-the-flow-interactive-website/wiki/%F0%9F%94%A8-Bouwen)
+De website is gemaakt met HTML en CSS.
+
+Het navigatiemenu van het familieoverzicht is al geleverd door de OBA zelf. Hierdoor was er alleen behoefte om het main gedeelte van de familieoverzicht te bouwen.
+
+
+**HTML**
+De main is opgedeeld in twee secties. De eerste sectie is een h1 met een achtergrondfoto als banner:
+
+<main> <section class="home flex"> <h1 class="familienaam">Familieoverzicht</h1>   </section>
+
+De tweede sectie is een ul met 5 accountleden en een icon om een 6de account toe te voegen. De list items zijn responsive gemaakt doormiddel van flex.
+
+<section class="accounts"> <h2>Leden:</h2>
+
+        `<ul class="account-list">`
+            `<li id="account">`
+                `<div class="profile-info">`
+                    `<img src="./image/icons8-person-48.png" alt="Profile Picture" class="profile-picture">`
+                    `<div class="account-details"><p class="typeaccount">(Type account)</p>`
+                    `<i class='bx bx-dots-vertical icon dots-vertical'></i>`
+                    `<h3>Amber</h3>`
+                    `</div>`
+                `</div>`
+                
+                `<ul class="gegevens">`
+                    `<li class="boete">• Openstaande boetes: 0.00`
+                    `</li>`
+                    `<li class="geleend">• Geleende artikelen: 6`
+                    `</li>`
+                    `<li class="inleverdatum">• Volgende inleverdatum: 06-12-2023`
+                    `</li>`
+                `</ul>`
+                `<button class="selecteer"> Selecteer Profiel</button>`
+            `</li>`
+**CSS**
+Het was voor de opdrachtgever belangrijk om de stijlboek van OBA te hanteren. De font font-family: "AvenirMedium"; en kleur background-color: #ff1e1e; heb ik daarom meerdere keren gebruikt in de stijlgeving.
+
+
 
 ## Licentie
 
