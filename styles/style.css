@@ -438,12 +438,12 @@ li.addaccount {
 
 .bx-plus {
   font-size: 100px;
-  color: white;
-  background-color: red;
+  color: red;
+  background-color: white;
   border-radius: 100%;
   border-width: 1px;
   border-style: solid;
-  border-color: #000000;
+  border-color: #a8a8a8;
 }
 
 .profile-picture {
