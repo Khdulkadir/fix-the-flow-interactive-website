@@ -410,6 +410,12 @@ h2 {
   font-family: "AvenirBlack";
 }
 
+.boete::before,
+.inleverdatum::before,
+.geleend::before {
+  content: "• ";
+}
+
 li.account {
   position: relative;
   padding: 10px;
