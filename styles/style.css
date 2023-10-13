@@ -351,16 +351,11 @@ body.dark .home .text {
   background-repeat: no-repeat;
   transition: var(--tran-05);
   position: relative;
-  display: flex;
   background-image: url(../image/banner2.jpg);
   background-size: 100%;
   padding-bottom: 50px;
   padding-top: 25px;
-  justify-content: center;
-}
-
-.flex {
-  display: flex;
+  text-align: center;
 }
 
 .logo {
@@ -471,11 +466,6 @@ li.addaccount {
   margin-left: 190px;
   margin-top: 0px;
 }
-
-/* .account-details {
-  display: flex;
-  flex-direction: column;
-} */
 
 ul.account-list {
   list-style-type: none;
