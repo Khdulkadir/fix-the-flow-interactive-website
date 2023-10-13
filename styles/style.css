@@ -410,7 +410,7 @@ h2 {
   font-family: "AvenirBlack";
 }
 
-li#account {
+li.account {
   position: relative;
   padding: 10px;
   float: left;
@@ -466,18 +466,10 @@ li.addaccount {
   margin-top: 0px;
 }
 
-.account-details {
+/* .account-details {
   display: flex;
   flex-direction: column;
-}
-
-.account a {
-  text-decoration: none;
-}
-
-ul.gegevens {
-  list-style-type: none;
-}
+} */
 
 ul.account-list {
   list-style-type: none;
